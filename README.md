@@ -1,1 +1,1 @@
-# KGDC
+# Implementation of KGDC
