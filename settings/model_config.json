@@ -1,0 +1,12 @@
+{
+    "nhead": 8,
+    "model_url": "/root/autodl-tmp/pretrained_models/bert-base-uncased",
+    "graph_attn_method": "raw",
+    "mix_encoder_layer_num": 2,
+    "mix_decoder_layer_num": 2,
+    "do_graph_fusion": true,
+    "do_doc_fusion": true,
+    "do_copy": true,
+    "pretrained_weights_cache_dir": "/root/autodl-tmp/pretrained_models",
+    "back_bone": "bert"
+}

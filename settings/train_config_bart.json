@@ -1,0 +1,14 @@
+{
+    "lr": 2.5e-5,
+    "epochs": 15,
+    "warm_up_steps": 0,
+    "batch_size": 64,
+    "save_path": "/root/autodl-tmp/checkpoints/wow-bart.pkl",
+    "device": "cuda:0",
+    "checkpoint_path": "/root/autodl-tmp/checkpoints/wow-bart.pkl",
+    "seed": 3407,
+    "start_from_checkpoint": false,
+    "pin_memory": true,
+    "eval_result_save_path": "/root/autodl-tmp/results/res-wowV8-unseen.json",
+    "num_workers": 2
+}

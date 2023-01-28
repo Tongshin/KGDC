@@ -1,0 +1,14 @@
+{
+    "lr": 5e-5,
+    "epochs": 25,
+    "warm_up_steps": 12000,
+    "batch_size": 24,
+    "save_path": "/root/autodl-tmp/checkpoints/wowV8.pkl",
+    "device": "cuda:0",
+    "checkpoint_path": "/root/autodl-tmp/checkpoints/wowV7.pkl",
+    "seed": 3407,
+    "start_from_checkpoint": false,
+    "pin_memory": true,
+    "eval_result_save_path": "/root/autodl-tmp/results/res-wowV8-unseen.json",
+    "num_workers": 2
+}

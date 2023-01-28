@@ -1,0 +1,14 @@
+{
+    "batch_size": 32,
+    "device": "cuda:0",
+    "checkpoint_path": "/root/autodl-tmp/checkpoints/wowV8.pkl",
+    "has_unseen_test_set": true,
+    "test_seen_result_save_path": "/root/autodl-tmp/results/res-wowV8-seen.json",
+    "test_unseen_result_save_path": "/root/autodl-tmp/results/res-wowV8-unseen.json",
+
+    "test_seen_raw_text_save_path": "/root/autodl-tmp/results/res-wowV8-seen-raw.json",
+    "test_unseen_raw_text_save_path": "/root/autodl-tmp/results/res-wowV8-unseen-raw.json",
+    
+    "pin_memory": true,
+    "max_len": 48
+}
