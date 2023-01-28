@@ -11,6 +11,6 @@ It is not the final version. We will clean up our code and make it more easier t
 1. Download **Wizard of Wikipedia Dataset** and **ConceptNet 5.5**
 2. Run **Process.py** to process the raw data.
 3. Run **Datasets.py**, that will create a cache file (Remember the directory!) 
-4. If you want to change settings, check `settings/train_config.json`、`settings/eval_config.json` and `settings/model_config.json`。
-5. Run **Model.py**.
+4. Use [ConvE](https://github.com/TimDettmers/ConvE) for pre-training.
+5. Run **main.py**. If you want to change settings, check `settings/train_config.json`、`settings/eval_config.json` and `settings/model_config.json` 
 6. More details can be found in our source code. (But it may be hard to read. Sorry for the bad coding style :( )
